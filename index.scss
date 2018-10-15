@@ -1,0 +1,5 @@
+$font-color: #f00;
+
+#body_of_website { //you can use id selectors to override bootstrap
+  background-color: $font-color;
+}

@@ -1,0 +1,5 @@
+{
+    "name": "per-website",
+    "version": "1.0.0",
+    "sasslintConfig": "Config/.sass-lint.yml"
+  }
