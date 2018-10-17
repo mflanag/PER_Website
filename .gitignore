@@ -1,0 +1,9 @@
+/* 
+!.gitignore
+#keep all html files
+!*.html
+#keep all config files
+!Config/
+!Config/*
+
+#add here for new folders
