@@ -1,5 +1,32 @@
 $font-color: #f00;
+$boiler-gold: #ceb888;
+$boiler-gray: #9d968d;
+$boiler-dark-gray: #373a36;
+$black: #000;
 
-#body_of_website { //you can use id selectors to override bootstrap
-  background-color: $font-color;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: $boiler-gold;
 }
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: $black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+
+  /* Change the link color to #111 (black) on hover */
+  hover {
+    background-color: $boiler-gold;
+  }
+}
+
+
